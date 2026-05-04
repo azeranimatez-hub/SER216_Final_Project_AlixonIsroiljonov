@@ -1,0 +1,6 @@
+#Defect analyse
+Category: Logic\Functional Error
+Severity: Hight(Blocks Security from doing their job)
+Priority: High (Must Fix immediately)
+Root Cause: The system is likely checking Current Date against a null or improperly saved Expiry Date field
+Regression Test: Re-run TC06 (Security Search) after fix is applied.
